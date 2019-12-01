@@ -56,7 +56,7 @@ else:
     print("number of slices = "+str(len(resizedContent)))
         
 # saving output
-os.chdir("./outs/")
+os.chdir("./out/")
 for i in range (0,len(resizedContent)):
     outputFileName="out"+str(i)+".txt"
     print("creation : "+outputFileName)
